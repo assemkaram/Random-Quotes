@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+J+Guides:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    border:none;
+    outline: none;
+
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+    position: relative;
+
+    list-style: none;
+    text-decoration: none;
+}
+
+
+body {
+    max-width: 100svw;
+    min-height: 100svh;
+    padding: 30px 0;
+    background-color: rgb(84, 52, 119);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent {
+    min-height: 50%;
+    min-width: 300px;
+    padding: 18px;
+    width: 40%;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+h1 {
+    font-family: "Roboto", sans-serif;
+}
+.qoute {
+    font-size: 30px;
+    font-family: "Playwrite GB J Guides", cursive;
+    font-weight: 400;
+}
+.author {
+    font-family: "Roboto", sans-serif;
+}
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+
+
+.btn {
+    padding: 20px;
+    border-top:2px solid rgba(0, 0, 0, 0.296) ;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Roboto", sans-serif;
+}
+
+.btn button {
+    padding: 15px;
+    border-radius: 15px;
+    background-color: rgb(85, 51, 119);
+    color: white;
+    border: 1px solid rgb(85, 51, 119);
+    transition: all 0.4s;
+}
+
+.btn .nw:hover {
+    background-color: transparent;
+    color:rgb(85, 51, 119) ;
+    border: 1px solid rgb(85, 51, 119);
+    cursor: pointer;
+}
+
+.btn .cpy {
+    background-color: transparent;
+    color:rgb(85, 51, 119) ;
+    border: 1px solid rgb(85, 51, 119);
+    border-radius: 50%;
+}
+.btn .cpy:hover {
+    background-color: rgb(85, 51, 119);
+    color: white;
+    border: 1px solid rgb(85, 51, 119);
+    cursor: pointer;
+}
+.copright {
+    text-align: center;
+    color:rgba(0, 0, 0, 0.449) ;
+}
