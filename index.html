@@ -2,25 +2,73 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./right-quotation-marks-quotation-marks-icon-free-11562975613rc3kidvmqj.png" type="image/x-icon">
+    <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Random quotes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | Random Quotes</title>
 </head>
 <body>
-    <div class="parent">
-        <div class="top">
-            <h1>Random Quotes: </h1>
-            <div class="qoute"></div>
-            <div class="author"></div>
+    <form class="fff">
+        <div class="child">
+        <label for="fn" name="first-name">First Name: </label>
+        <br>
+        <input id="fn" type="text">
+        <div class="fn-valid"> 
         </div>
-            <div class="btn">
-                <button class="cpy" onclick="copy()"><i class="fa-regular fa-clipboard"></i></button>
-                <button class="nw" onclick="ranquote()">New Quote</button>
+        </div>
+
+        <div class="child">
+            <label for="ln">Last Name: </label>
+            <br>
+            <input type="text" id="ln" name="last-name">
+            <div class="ln-valid">
             </div>
-            <p class="copright"> &copy; Developed By Assem Karam </p>
-    </div>
-    <script src="app.js"></script>
+        </div>
+
+        <div class="child">
+            <label for="BD">Birth Date: </label>
+            <br> 
+            <input id="BD" type="text" name="birth-date">
+            <div class="bd-valid">
+            </div>
+        </div>
+
+        <div class="child">
+            <label for="email">Email: </label>
+            <input id="email" type="email" name="email">
+            <div class="em-valid">
+            </div>
+        </div>
+
+        <div class="child">
+            <label for="phone">Phone: </label>
+            <input id="phone" type="text" name="phone">
+            <div class="phone-valid">
+            </div>
+        </div>
+
+        <div class="pass">
+            <div>
+                <label for="passwrod" >Password: </label>
+                <br>
+                <input id="passwrod" type="password" name="pass">
+                <div class="ps-valid">
+                </div>
+            </div>
+
+            <div>
+                <label for="con-password" name="pass-con">Confirm Password: </label>
+                <br>
+                <input id="con-password" type="password">
+                <div class="psc-valid">
+                </div>
+            </div>
+
+        </div>
+        <div>
+            <button type="submit" onclick="sub()">Submit</button>
+        </div>
+    </form>
+    <script src="app2.js"></script>
 </body>
 </html>
