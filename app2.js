@@ -44,7 +44,7 @@ firstName.addEventListener("input",()=>{
 lastName.addEventListener("input",()=>{
     if(nameregex.test(lastName.value)){
         divLn.innerHTML=`
-            <p class="valid"><i class="fa-solid fa-check"></i> Valid First name</p>
+            <p class="valid"><i class="fa-solid fa-check"></i> Valid Last name</p>
         `
     } else {
         divLn.innerHTML=`
